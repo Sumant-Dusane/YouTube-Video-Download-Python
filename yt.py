@@ -16,7 +16,7 @@ def browsefile():
         messagebox.showerror("Error", "Please insert Directory") 
 
 def download():
-    url = ent_link.get()
+    url = str(ent_link.get())
     res = var.get()
 
     if len(url) < 1:
@@ -34,7 +34,12 @@ def download():
             reso_select = yt.streams.get_highest_resolution()
         try:
             reso_select.download(path1)
+            
             messagebox.showinfo("Sucess", "Video Downloaded!")
+            messagebox.showinfo("Follow Me", "For more Stuffs like this Follow me")
+            messagebox.showinfo("GitHub", "https://github.com/Sumant-Dusane")
+
+
         except:
             messagebox.showerror("Error", "Download Failed")
     except:
@@ -44,6 +49,7 @@ def download():
 root = Tk()
 root.geometry('500x400+350+100')
 root.resizable(False, False)
+root.call('wm', 'iconphoto', root._w, PhotoImage(file='F:\Sumant\Python\YouTube Downloader\yicon.png'))
 root.title("Youtube Video Downloader")
 root.config(bg = "gray3")
 
