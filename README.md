@@ -13,4 +13,9 @@ If error like : HTTP error <some codes like 404/410 • exists do the following
 
 Thank You 
 
-Follow me on Socials:
+Any Suggestions, Doubts or Help needed --> contact me!
+Follow and Support Me!! 
+Socials: ♥
+   Instagram : @s.u.m.a.n.t_8282 
+   Facebook : Sumant Dusane 
+   Mail : sumant.dusane1966@gmail.com
